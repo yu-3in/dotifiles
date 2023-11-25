@@ -127,9 +127,6 @@ fi
 ########################################
 # software settings
 
-## nodebrew
-export PATH=$HOME/.nodebrew/current/bin:$PATH
-
 ## sail
 alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
 
@@ -145,3 +142,7 @@ export PATH="$PATH":"$HOME/.pub-cache/bin"
 
 ## flutter
 export PATH="$PATH:/Users/yuuum/development/flutter/bin"
+
+## volta
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
